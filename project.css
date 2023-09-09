@@ -1,0 +1,84 @@
+.bigDiv{
+  font-family: "Times New Roman", Times, serif;
+  background-color:white;
+}
+.box3{
+  margin-left: 90px;
+  height: 20vh;
+  background-color: white;
+  width: 45vw;
+}
+.box4{
+  height: 20vh;
+  width: 55vw;
+  margin-left: 60px;
+
+}
+.box5{
+  height: 20vh;
+  width: 60vw;
+
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  color: white;
+  background-color: orange;
+  margin-left: 86px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+#box6{
+
+  height: 30vh;
+  width: 40vw;
+  text-align: center;
+  padding: 5px;
+  margin-right: 5px;
+  border: 3px solid #c7c5c5;
+}
+#box7{
+
+  height: 30vh;
+  width: 40vw;
+  text-align: center;
+  padding: 5px;
+  border: 3px solid #c7c5c5;
+}
+#box8{
+
+  height: 30vh;
+  width: 117vw;
+  text-align: center;
+  padding: 5px;
+  margin-left: 101px;
+  margin-top: 5px;
+  border: 3px solid #c7c5c5;
+}
+#box9{
+  height: 30vh;
+  width: 118vw;
+  text-align: center;
+  padding: 5px;
+  margin-left: 7px;
+  margin-top: 5px;
+  border: 3px solid #c7c5c5;
+}
+.scholorship{
+  font-weight: bold;
+
+}
+.help{
+  font-weight: bold;
+
+}
+.homeless{
+  font-weight: bold;
+}
+.frc{
+  font-weight: bold;
+}
