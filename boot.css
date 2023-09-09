@@ -1,0 +1,31 @@
+.container{
+  background-color: #1e3a59;
+  padding: 250px;
+
+}
+#komal{
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: bold;
+
+}
+#designation{
+  color: #0c34f7;
+  font-size: 15px;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: bold;
+
+}
+#info{
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: bold;
+  height: 10vh;
+  width: 70vw;
+
+}
