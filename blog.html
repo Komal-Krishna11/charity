@@ -11,6 +11,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
  </head>
  <link rel="stylesheet" href="blog.css">
@@ -119,14 +121,20 @@
     </style>
 
     <div class="blog-card-grid">
-        <div class="blog-image-card" style="background-image: url('https://images-cdn.brightedge.com/f00000000036389/videos.brightedge.com/Images/how-to-staff-seo-projects.jpg');">
-            <div class="blog-text"><h2 onclick="display('section2')">SEO</h2></div>
+        <div  class="blog-image-card" style="background-image: url('https://images-cdn.brightedge.com/f00000000036389/videos.brightedge.com/Images/how-to-staff-seo-projects.jpg');">
+            <div class="blog-text">
+              <button onclick="display('section2')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">SEO</button>
+            </div>
         </div>
         <div class="blog-image-card" style="background-image: url('https://www.searchenginejournal.com/wp-content/uploads/2023/09/3-pillars-content-marketing-strat-64fef2bd0e8db-sej.png');">
-            <div class="blog-text"><h2 onclick="display('section3')">Content Marketing</h2></div>
+            <div class="blog-text">
+              <button onclick="display('section3')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">Content Marketing</button>
+            </div>
         </div>
         <div class="blog-image-card" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*6YAcMj_bsjGAW4JWjXtjOw.jpeg');">
-            <div class="blog-text"><h2 onclick="display('section4')">Paid Advertising</h2></div>
+            <div class="blog-text">
+              <button onclick="display('section4')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">Paid Advertising</button>
+            </div>
         </div>
     </div>
 
@@ -134,13 +142,19 @@
 
     <div class="blog-card-grid">
         <div class="blog-image-card" style="background-image: url('https://i.pinimg.com/originals/4e/6a/b4/4e6ab420904e2462e336d9bfb8e7a2df.png');">
-            <div class="blog-text"><h2 onclick="display('section5')">Social-Media Marketing</h2></div>
+            <div class="blog-text">
+              <button onclick="display('section5')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">Social-Media Marketing</button>
+            </div>
         </div>
         <div class="blog-image-card" style="background-image: url('https://media.istockphoto.com/id/1148931787/photo/email-marketing.webp?b=1&s=170667a&w=0&k=20&c=3fxzdpZvC2g-esMhqtAzcVHK_rIhxrMvK-cgdyxtNO4=');">
-            <div class="blog-text"><h2 onclick="display('section6')">E-Mail Marketing</h2></div>
+            <div class="blog-text">
+              <button onclick="display('section6')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">E-Mail Marketing</button>
+            </div>
         </div>
         <div class="blog-image-card" style="background-image: url('https://www.easel.ly/blog/wp-content/uploads/2020/11/shortlisting-web-design-companies-scaled.jpg');">
-            <div class="blog-text"><h2 onclick="display('section7')">Web-Design & Development</h2></div>
+            <div class="blog-text">
+              <button onclick="display('section7')" style="background-color:#e7b10a; color:#ffffff; border-width:0px; font-size:25px; font-weight:bold;">Web-Design & Development</button>
+            </div>
         </div>
     </div>
 
@@ -250,7 +264,7 @@
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  SEO </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  SEO </span> </h5>
       </div>
 
 
@@ -302,17 +316,18 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
+
 
 
 </div>
@@ -453,7 +468,7 @@ aria-label="Search through site content">
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Content Marketing </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button><span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Content Marketing </span> </h5>
       </div>
 
 
@@ -508,17 +523,17 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
 
 
 </div>
@@ -659,7 +674,7 @@ aria-label="Search through site content">
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Paid Advertising </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Paid Advertising </span> </h5>
       </div>
 
 
@@ -714,17 +729,17 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
 
 
 </div>
@@ -865,7 +880,7 @@ aria-label="Search through site content">
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Social-Media Marketing </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  Social-Media Marketing </span> </h5>
       </div>
 
 
@@ -919,17 +934,17 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
 
 
 </div>
@@ -1070,7 +1085,7 @@ aria-label="Search through site content">
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  E-Mail Marketing </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i>  E-Mail Marketing </span> </h5>
       </div>
 
 
@@ -1127,17 +1142,17 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
 
 
 </div>
@@ -1277,7 +1292,7 @@ aria-label="Search through site content">
     <div class="content1 ">
 <!-- <h1 class="  mb-3 "style="color:white;font-family: 'Space Grotesk', sans-serif;">Your <span style="color:#E7B10A;font-size:50px;">Digital</span>  Marketing  Solution </h1> <br> -->
 
-      <h5 class="display-3 text-white typing-text"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i> Web-Design & Development </span> </h5>
+      <h5 class="display-3 text-white typing-text"><button style="background:none;border-width:0px;"><a onclick="display('section1')" style="color:white;text-decoration:none;font-size:60px;" >Blog</a></button> <span style="color:#E7B10A;font-size:60px;" > <i class="fa-solid fa-less-than fa-sm" style="color: #e7b10a;"></i> Web-Design & Development </span> </h5>
       </div>
 
 
@@ -1336,17 +1351,17 @@ aria-label="Search through site content">
 
 <h4 style="font-weight:bold;">Categories</h4>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')">SEO</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section2')"><button style="background:none;border-width:0px;color:grey;">SEO</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')">Content Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section3')"><button style="background:none;border-width:0px;color:grey;">Content Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')">Paid Advertising</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section4')"><button style="background:none;border-width:0px;color:grey;">Paid Advertising</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')">Social-Media Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section5')"><button style="background:none;border-width:0px;color:grey;">Social-Media Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')">E-Mail Marketing</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b;" onclick="display('section6')"><button style="background:none;border-width:0px;color:grey;">E-Mail Marketing</button></p>
 
-<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')">Web Design & Development</p>
+<p style="border-top:2px solid #7a7d7b; padding-top:10px; color:#7a7d7b; padding-bottom:15px;" onclick="display('section7')"><button style="background:none;border-width:0px;color:grey;">Web-Design & Development</button></p>
 
 
 </div>
